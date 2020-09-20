@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "nodemon:help": "nodemon -h",
     "task1-1": "nodemon tasks/task-1-1.js",
-    "task1-2": "nodemon tasks/task-1-2.js"
+    "task1-2": "nodemon tasks/task-1-2.js",
+    "hw-2": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,15 @@
   },
   "homepage": "https://github.com/sokol147/node-js#readme",
   "devDependencies": {
+    "eslint": "^7.9.0",
     "nodemon": "^2.0.4"
   },
   "dependencies": {
-    "csvtojson": "^2.0.10"
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "express-joi-validation": "^4.0.4-beta.0",
+    "joi": "^17.2.1"
   }
 }
